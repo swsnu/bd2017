@@ -24,9 +24,9 @@
 ## Reading list
 
 ### Resource management
-* [YARN](https://www.cs.cmu.edu/~garth/15719/papers/yarn.pdf). Apache Hadoop YARN: Yet Another Resource Negotiator. Vinod Kumar Vavilapalli, Arun C Murthy, Chris Douglas, Sharad Agarwal, Mahadev Konar, Robert Evans, Thomas Graves, Jason Lowe, Hitesh Shah, Siddharth Seth, Bikas Saha, Carlo Curino, Owen O’Malley, Sanjay Radia, Benjamin Reed, Eric Baldeschwieler. SOCC 2013.
-* [Mesos](http://static.usenix.org/event/nsdi11/tech/full_papers/Hindman_new.pdf). Mesos: A Platform for Fine-Grained Resource Sharing in the Data Center. Benjamin Hindman, Andy Konwinski, Matei Zaharia, Ali Ghodsi, Anthony D. Joseph, Randy Katz, Scott Shenker, Ion Stoica. NSDI 2011.
-* [Borg](https://pdos.csail.mit.edu/6.824/papers/borg.pdf). Large-scale cluster management at Google with Borg. Abhishek Verma, Luis Pedrosa, Madhukar Korupolu, David Oppenheimer, Eric Tune, John Wilkes. EuroSys 2015.  
+- [YARN](https://www.cs.cmu.edu/~garth/15719/papers/yarn.pdf). Apache Hadoop YARN: Yet Another Resource Negotiator. Vinod Kumar Vavilapalli, Arun C Murthy, Chris Douglas, Sharad Agarwal, Mahadev Konar, Robert Evans, Thomas Graves, Jason Lowe, Hitesh Shah, Siddharth Seth, Bikas Saha, Carlo Curino, Owen O’Malley, Sanjay Radia, Benjamin Reed, Eric Baldeschwieler. SOCC 2013.
+- [Mesos](http://static.usenix.org/event/nsdi11/tech/full_papers/Hindman_new.pdf). Mesos: A Platform for Fine-Grained Resource Sharing in the Data Center. Benjamin Hindman, Andy Konwinski, Matei Zaharia, Ali Ghodsi, Anthony D. Joseph, Randy Katz, Scott Shenker, Ion Stoica. NSDI 2011.
+- [Borg](https://pdos.csail.mit.edu/6.824/papers/borg.pdf). Large-scale cluster management at Google with Borg. Abhishek Verma, Luis Pedrosa, Madhukar Korupolu, David Oppenheimer, Eric Tune, John Wilkes. EuroSys 2015.  
 
 
 

@@ -40,9 +40,15 @@
 - [Tez](https://www.cse.ust.hk/~weiwa/teaching/Fall16-COMP6611B/reading_list/Tez.pdf). Apache Tez: A Unifying Framework for Modeling and
 Building Data Processing Applications. Bikas Saha, Hitesh Shah, Siddharth Seth, Gopal Vijayaraghavan, Arun Murthy, Carlo Curino. SIGMOD 2015.
 
+### High-level Data Processing Programming 
+- [Hive](http://infolab.stanford.edu/~ragho/hive-icde2010.pdf). Hive – A Petabyte Scale Data Warehouse Using Hadoop. Ashish Thusoo, Joydeep Sen Sarma, Namit Jain, Zheng Shao, Prasad Chakka, Ning Zhang, Suresh Antony, Hao Liu and Raghotham Murthy. ICDE 2010.
+- [Pig](http://infolab.stanford.edu/~olston/publications/sigmod08.pdf). Pig Latin: A Not-So-Foreign Language for Data Processing. Christopher Olston, Benjamin Reed, Utkarsh Srivastava, Ravi Kumar, Andrew Tomkins. SIGMOD 2008.
+- [FlumeJava](http://pages.cs.wisc.edu/~akella/CS838/F12/838-CloudPapers/FlumeJava.pdf). FlumeJava: Easy, Efﬁcient Data-Parallel Pipelines. Craig Chambers, Ashish Raniwala, Frances Perry, Stephen Adams, Robert R. Henry, Robert Bradshaw, Nathan Weizenbaum. PLDI 2010.
+- [DryadLINQ](https://www.usenix.org/legacy/event/osdi08/tech/full_papers/yu_y/yu_y.pdf). DryadLINQ: A System for General-Purpose Distributed Data-Parallel Computing Using a High-Level Language. Yuan Yu, Michael Isard, Dennis Fetterly, Mihai Budiu, Úlfar Erlingsson, Pradeep Kumar Gunda, Jon Currey. OSDI 2008.
+- [SCOPE](http://research.microsoft.com/en-us/um/people/jrzhou/pub/Scope.pdf). SCOPE: Easy and Efficient Parallel Processing of Massive Data Sets. Ronnie Chaiken, Bob Jenkins, Per-Åke Larson, Bill Ramsey, Darren Shakib, Simon Weaver, Jingren Zhou. VLDB 2008. 
+- [Beam](https://beam.apache.org/). Apache Beam.
 
-
-
+### Machine Learning/Deep Learning
 
 
 

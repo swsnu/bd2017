@@ -3,5 +3,6 @@
 
 ## Schedule
 | Week | Lecture | Homework/Project |
+|------|---------|------------------|
 | Week1 9.5/7 | Introduction. Resource Manager: YARN, Mesos, Borg | |
 

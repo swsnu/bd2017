@@ -52,10 +52,44 @@ for Data-Parallel Execution Plans. Qifa Ke, Michael Isard, Yuan Yu. EuroSys 2013
 - [Beam](https://beam.apache.org/). Apache Beam.
 
 ### Machine Learning/Deep Learning
+- [PS](https://www.usenix.org/system/files/conference/osdi14/osdi14-paper-li_mu.pdf). Scaling Distributed Machine Learning with the Parameter Server. Mu Li, David G. Andersen, Jun Woo Park, Alexander J. Smola, Amr Ahmed, Vanja Josifovski, James Long, Eugene J. Shekita, and Bor-Yiing Su. OSDI 2014.
+- [Petuum](http://www.cs.cmu.edu/~seunghak/petuum_kdd15.pdf). Petuum: A New Platform for Distributed Machine Learning on Big Data. Eric P. Xing, Qirong Ho, Wei Dai, Jin Kyu Kim, Jinliang Wei, Seunghak Lee, Xun Zheng, Pengtao Xie, Abhimanu Kumar, and Yaoliang Yu. KDD 2015.
+- [Adam](https://www.usenix.org/system/files/conference/osdi14/osdi14-paper-chilimbi.pdf). Project Adam: Building an Efficient and Scalable Deep Learning Training System. Trishul Chilimbi, Yutaka Suzue, Johnson Apacible, and Karthik Kalyanaraman. OSDI 2014.
+- [TensorFlow](https://www.usenix.org/system/files/conference/osdi16/osdi16-abadi.pdf). TensorFlow: A System for Large-Scale
+Machine Learning. Martín Abadi, Paul Barham, Jianmin Chen, Zhifeng Chen, Andy Davis, Jeffrey Dean, Matthieu Devin, Sanjay Ghemawat, Geoffrey Irving, Michael Isard, Manjunath Kudlur, Josh Levenberg, Rajat Monga, Sherry Moore, Derek G. Murray, Benoit Steiner, Paul Tucker, Vijay Vasudevan, Pete Warden, Martin Wicke, Yuan Yu, Xiaoqiang Zheng. OSDI 2016.
+- [Caffe2](https://caffe2.ai/). Caffe2: A New Lightweight, Modular, and Scalable Deep Learning Framework.
+- [Torch] (http://torch.ch/). Torch: A Scientific Computing Framework for LuaJIT.
+- [MXNet] (https://arxiv.org/pdf/1512.01274.pdf) MXNet: A Flexible and Efficient Machine Learning Library for Heterogeneous Distributed Systems. Tianqi Chen, Mu Li, Yutian Li, Min Lin, Naiyan Wang, Minjie Wang, Tianjun Xiao,  Bing Xu, Chiyuan Zhang, Zheng Zhang. arXiv:1512.01274v1. Dec. 3, 2015. (Web site: http://mxnet.io)
+- [Theano] (https://arxiv.org/pdf/1605.02688.pdf). Theano: A Python framework for fast computation of mathematical expressions. Rami Al-Rfou, Guillaume Alain, Amjad Almahairi, Christof Angermueller, Dzmitry Bahdanau, Nicolas Ballas, Frédéric Bastien, Justin Bayer, Anatoly Belikov, Alexander Belopolsky, Yoshua Bengio, Arnaud Bergeron, James Bergstra, Valentin Bisson, Josh Bleecher Snyder, Nicolas Bouchard, Nicolas Boulanger-Lewandowski, Xavier Bouthillier, Alexandre de Brébisson, Olivier Breuleux, Pierre-Luc Carrier, Kyunghyun Cho, Jan Chorowski, Paul Christiano, Tim Cooijmans, Marc-Alexandre Côté, Myriam Côté, Aaron Courville, Yann N. Dauphin, Olivier Delalleau, Julien Demouth, Guillaume Desjardins, Sander Dieleman, Laurent Dinh, Mélanie Ducoffe, Vincent Dumoulin, Samira Ebrahimi Kahou, Dumitru Erhan, Ziye Fan, Orhan Firat, Mathieu Germain, Xavier Glorot, Ian Goodfellow, Matt Graham, Caglar Gulcehre, Philippe Hamel, Iban Harlouchet, Jean-Philippe Heng, Balázs Hidasi, Sina Honari, Arjun Jain, Sébastien Jean, Kai Jia, Mikhail Korobov, Vivek Kulkarni, Alex Lamb, Pascal Lamblin, Eric Larsen, César Laurent, Sean Lee, Simon Lefrancois, Simon Lemieux, Nicholas Léonard, Zhouhan Lin, Jesse A. Livezey, Cory Lorenz, Jeremiah Lowin, Qianli Ma, Pierre-Antoine Manzagol, Olivier Mastropietro, Robert T. McGibbon, Roland Memisevic, Bart van Merriënboer, Vincent Michalski, Mehdi Mirza, Alberto Orlandi, Christopher Pal, Razvan Pascanu, Mohammad Pezeshki, Colin Raffel, Daniel Renshaw, Matthew Rocklin, Adriana Romero, Markus Roth, Peter Sadowski, John Salvatier, François Savard, Jan Schlüter, John Schulman, Gabriel Schwartz, Iulian Vlad Serban, Dmitriy Serdyuk, Samira Shabanian, Étienne Simon, Sigurd Spieckermann, S. Ramana Subramanyam, Jakub Sygnowski, Jérémie Tanguay, Gijs van Tulder, Joseph Turian, Sebastian Urban, Pascal Vincent, Francesco Visin, Harm de Vries, David Warde-Farley, Dustin J. Webb, Matthew Willson, Kelvin Xu, Lijun Xue, Li Yao, Saizheng Zhang, Ying Zhang. arXiv:1605.02688. May 9, 2016.
+- [Caffe] (http://ucb-icsi-vision-group.github.io/caffe-paper/caffe.pdf). Caffe: Convolutional Architecture for Fast Feature Embedding. Yangqing Jia, Evan Shelhamer, Jeff Donahue, Sergey Karayev, Jonathan Long, Ross Girshick, Sergio Guadarrama, Trevor Darrell. ACM Multimedia 2014.
+- [DistBelief](https://static.googleusercontent.com/media/research.google.com/en//archive/large_deep_networks_nips2012.pdf). Large Scale Distributed Deep Networks. Jeffrey Dean, Greg S. Corrado, Rajat Monga, Kai Chen, Matthieu Devin, Quoc V. Le, Mark Z. Mao, Marc’Aurelio Ranzato, Andrew Senior, Paul Tucker, Ke Yang, Andrew Y. Ng. NIPS 2012.
+- [BaiduDL](https://cs.stanford.edu/~acoates/papers/CoatesHuvalWangWuNgCatanzaro_icml2013.pdf). Deep learning with COTS HPC systems. Adam Coates, Brody Huval, Tao Wang, David J. Wu, Andrew Y. Ng, Bryan Catanzaro. ICML 2013.
+
+### Stream Processing
+- [Storm](http://db.cs.berkeley.edu/cs286/papers/storm-sigmod2014.pdf). Storm @ Twitter. Ankit Toshniwal, Siddarth Taneja, Amit Shukla, Karthik Ramasamy, Jignesh M. Patel, Sanjeev Kulkarni, Jason Jackson, Krishna Gade, Maosong Fu, Jake Donham, Nikunj Bhagat, Sailesh Mittal, Dmitriy Ryaboy. SIGMOD 2014.
+- [Heron](https://pdfs.semanticscholar.org/e847/c3ec130da57328db79a7fea794b07dbccdd9.pdf). Twitter Heron: Stream Processing at Scale. Sanjeev Kulkarni, Nikunj Bhagat, Maosong Fu, Vikas Kedigehalli, Christopher Kellogg, Sailesh Mittal, Jignesh M. Patel, Karthik Ramasamy, Siddarth Taneja. SIGMOD 2015.
+- [SparkStreaming](http://www.cs.berkeley.edu/~matei/papers/2013/sosp_spark_streaming.pdf). Discretized Streams: Fault-Tolerant Streaming Computation at Scale. Matei Zaharia, Tathagata Das, Haoyuan Li, Timothy Hunter, Scott Shenker, Ion Stoica. SOSP 2013.
+- [StreamScope](https://www.usenix.org/system/files/conference/nsdi16/nsdi16-paper-lin-wei.pdf). StreamScope: Continuous Reliable Distributed Processing of Big Data Streams. Wei Lin, Haochuan Fan, Zhengping Qian, Junwei Xu, Sen Yang, Jingren Zhou, Lidong Zhou. NSDI 2016.
+- [MillWheel](http://research.google.com/pubs/archive/41378.pdf). MillWheel: Fault-Tolerant Stream Processing at Internet Scale. Tyler Akidau, Alex Balikov, Kaya Bekiroglu, Slava Chernyak, Josh Haberman, Reuven Lax, Sam McVeety, Daniel Mills, Paul Nordstrom, Sam Whittle. VLDB 2013.
+- [SEEP](http://lsds.doc.ic.ac.uk/sites/default/files/sigmod13-seep.pdf). Integrating Scale Out and Fault Tolerance in Stream Processing using Operator State Management. Raul Castro Fernandez, Matteo Migliavacca, Evangelia Kalyvianaki, Peter Pietzuch. SIGMOD 2013.
+- [SummaryStore]. Low-Latency Analytics on Colossal Data Streams with SummaryStore. Nitin Agrawal, Ashish Vulimiri. SOSP 2017.
 
 
+### Graph Processing
+- [Pregel]
+- [GraphLab]
+- [PowerGraph]
+- [Arabesque]
 
+### Distributed Store
+- [GFS](http://static.googleusercontent.com/media/research.google.com/en//archive/gfs-sosp2003.pdf). The Google File System. Sanjay Ghemawat, Howard Gobioff, and Shun-Tak Leung. SOSP 2003. 
+- [Bigtable](http://static.googleusercontent.com/media/research.google.com/en//archive/bigtable-osdi06.pdf). Bigtable: A Distributed Storage System for Structured Data. Fay Chang, Jeffrey Dean, Sanjay Ghemawat, Wilson C. Hsieh, Deborah A. Wallach, Mike Burrows, Tushar Chandra, Andrew Fikes, Robert E. Gruber. OSDI 2006.
+- [Dynamo](http://www.allthingsdistributed.com/files/amazon-dynamo-sosp2007.pdf). Dynamo: Amazon’s Highly Available Key-value Store. Giuseppe DeCandia, Deniz Hastorun, Madan Jampani, Gunavardhan Kakulapati, Avinash Lakshman, Alex Pilchin, Swaminathan Sivasubramanian, Peter Vosshall and Werner Vogels. SOSP 2007.
+- [Spanner](http://research.google.com/archive/spanner-osdi2012.pdf). Spanner: Google’s Globally-Distributed Database. James C. Corbett, Jeffrey Dean, Michael Epstein, Andrew Fikes, Christopher Frost, JJ Furman, Sanjay Ghemawat, Andrey Gubarev, Christopher Heiser, Peter Hochschild, Wilson Hsieh, Sebastian Kanthak, Eugene Kogan, Hongyi Li, Alexander Lloyd, Sergey Melnik, David Mwaura, David Nagle, Sean Quinlan, Rajesh Rao, Lindsay Rolig, Yasushi Saito, Michal Szymaniak, Christopher Taylor, Ruth Wang, Dale Woodford. OSDI 2012.
 
+### Coordination
+- [Chubby]
+- [Zookeeper]
 
 
 

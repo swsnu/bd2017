@@ -42,6 +42,8 @@ Building Data Processing Applications. Bikas Saha, Hitesh Shah, Siddharth Seth, 
 - [Optimus](https://pdfs.semanticscholar.org/9ec7/8da630bed253d3ae41af753eb0013d4273be.pdf). Optimus: A Dynamic Rewriting Framework
 for Data-Parallel Execution Plans. Qifa Ke, Michael Isard, Yuan Yu. EuroSys 2013.
 - [Pado](http://dl.acm.org/citation.cfm?id=3064181&dl=ACM&coll=DL&CFID=977360376&CFTOKEN=40744495). Pado: A Data Processing Engine for Harnessing Transient Resources in Datacenters. Youngseok Yang, Geon-Woo Kim, Won Wook Song, Yunseong Lee, Andrew Chung, Zhengping Qian, Brian Cho, Byung-Gon Chun. EuroSys 2017.
+- [PerfAnalysis](https://www.usenix.org/system/files/conference/nsdi15/nsdi15-paper-ousterhout.pdf). Making Sense of Performance in
+Data Analytics Frameworks. Kay Ousterhout, Ryan Rasti, Sylvia Ratnasamy, Scott Shenker, Byung-Gon Chun. NSDI 2015.
 
 ### High-level Data Processing Programming 
 - [Hive](http://infolab.stanford.edu/~ragho/hive-icde2010.pdf). Hive – A Petabyte Scale Data Warehouse Using Hadoop. Ashish Thusoo, Joydeep Sen Sarma, Namit Jain, Zheng Shao, Prasad Chakka, Ning Zhang, Suresh Antony, Hao Liu and Raghotham Murthy. ICDE 2010.

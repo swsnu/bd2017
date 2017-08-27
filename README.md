@@ -39,6 +39,9 @@
 - [Naiad](http://research.microsoft.com/pubs/201100/naiad_sosp2013.pdf). Naiad: A Timely Dataﬂow System. Derek G. Murray, Frank McSherry, Rebecca Isaacs, Michael Isard, Paul Barham, Martin Abadi. SOSP 2013.
 - [Tez](https://www.cse.ust.hk/~weiwa/teaching/Fall16-COMP6611B/reading_list/Tez.pdf). Apache Tez: A Unifying Framework for Modeling and
 Building Data Processing Applications. Bikas Saha, Hitesh Shah, Siddharth Seth, Gopal Vijayaraghavan, Arun Murthy, Carlo Curino. SIGMOD 2015.
+- [Optimus](https://pdfs.semanticscholar.org/9ec7/8da630bed253d3ae41af753eb0013d4273be.pdf). Optimus: A Dynamic Rewriting Framework
+for Data-Parallel Execution Plans. Qifa Ke, Michael Isard, Yuan Yu. EuroSys 2013.
+- [Pado](http://dl.acm.org/citation.cfm?id=3064181&dl=ACM&coll=DL&CFID=977360376&CFTOKEN=40744495). Pado: A Data Processing Engine for Harnessing Transient Resources in Datacenters. Youngseok Yang, Geon-Woo Kim, Won Wook Song, Yunseong Lee, Andrew Chung, Zhengping Qian, Brian Cho, Byung-Gon Chun. EuroSys 2017.
 
 ### High-level Data Processing Programming 
 - [Hive](http://infolab.stanford.edu/~ragho/hive-icde2010.pdf). Hive – A Petabyte Scale Data Warehouse Using Hadoop. Ashish Thusoo, Joydeep Sen Sarma, Namit Jain, Zheng Shao, Prasad Chakka, Ning Zhang, Suresh Antony, Hao Liu and Raghotham Murthy. ICDE 2010.

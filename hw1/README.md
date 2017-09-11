@@ -142,7 +142,7 @@ git remote add origin https://github.com/YOUR_USERNAME/YOUR_REPO_NAME
 git push -u origin master
 ```
 
-7. Under `Settings` then `Collaborators` tab, Add TAs as your collaborators: @yunseong, @johnyangk and @joosjeong.
+7. Under `Settings` then `Collaborators` tab, Add TAs as your collaborators: @yunseong, @johnyangk and @jsjason.
 8. You're all set! After finishing your homework, push your contents to your repository on time!
 
 ## References

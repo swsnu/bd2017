@@ -44,7 +44,7 @@ public final class SonarData {
   * Apache Maven
   * Apache YARN 2.7 (install in [pseudo-distributed mode](https://hadoop.apache.org/docs/stable/hadoop-project-dist/hadoop-common/SingleCluster.html#Pseudo-Distributed_Operation))
 2. Setup your repository as described in the Submission guideline
-3. Download the tarball ([link](https://github.com/swsnu/bd2017/blob/master/hw1/hw1-reef.tar.gz)) and untar it. 
+3. Download the tarball ([hw1-reef.tar.gz](https://github.com/swsnu/bd2017/blob/master/hw1/hw1-reef.tar.gz)) and untar it. 
 4. Run following commands then Maven will resolve all the necessary dependency.
   ```
   $ tar -xvzf hw1-reef.tar.gz

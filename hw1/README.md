@@ -56,7 +56,7 @@ public final class SonarData {
 
 ### Tips for YARN installation
    * We recommend using Ubuntu 14.04 LTS or Mac OS X. When we tried to install YARN in some platforms such as Windows or latest version of linux, we spent our time just for troubleshooting. If your machine runs on those systems, we recommend that Virtual machines ([VirtualBox](https://www.virtualbox.org/wiki/Downloads) works well and it is free!).
-   * You can find many guidelines or tutorials on the web (e.g., "How to install hadoop"), but hadoop has evolved a lot for years, thus you can make unnecessary changes to your system. We recommend you to stick to the tutorial in official site [5]. If something does not work, post a question on the discussion.
+   * You can find many guidelines or tutorials on the web (e.g., "How to install hadoop"), but hadoop has evolved a lot for years, thus you can make unnecessary changes to your system. We recommend you to stick to the tutorial in the [official site](https://hadoop.apache.org/docs/stable/hadoop-project-dist/hadoop-common/SingleCluster.html#Pseudo-Distributed_Operation). If something does not work, post a question on the discussion.
    * If you are not able to use 22 port for SSH login, try this trick in the hadoop mailing list ([link](http://mail-archives.apache.org/mod_mbox/hadoop-general/201211.mbox/%3CCAOcnVr27vFeY1mJAhWaRuQeBuwfuuAM39e1zjkaLj8uvzCUXRg@mail.gmail.com%3E))
   
   

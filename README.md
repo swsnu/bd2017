@@ -33,10 +33,10 @@
 
 ### Dataflow Processing Framework
 - [MapReduce](https://www.usenix.org/legacy/event/osdi04/tech/full_papers/dean/dean.pdf). MapReduce: Simpliﬁed Data Processing on Large Clusters. Jeffrey Dean and Sanjay Ghemawat. OSDI 2004.
-- [Dryad](http://cs.brown.edu/~debrabant/cis570-website/papers/dryad.pdf). Dryad: Distributed Data-Parallel Programs from Sequential Building Blocks. Michael Isard, Mihai Budiu, Yuan Yu, Andrew Birrell, Dennis Fetterly. Eurosys 2007.
-- [Spark](https://www.cs.berkeley.edu/~matei/papers/2012/nsdi_spark.pdf). Resilient Distributed Datasets: A Fault-Tolerant Abstraction for In-Memory Cluster Computing. Matei Zaharia, Mosharaf Chowdhury, Tathagata Das, Ankur Dave, Justin Ma, Murphy McCauley, Michael J. Franklin, Scott Shenker, Ion Stoica. NSDI 2012.
+- [Dryad](https://birrell.org/andrew/papers/Dryad-Eurosys.pdf). Dryad: Distributed Data-Parallel Programs from Sequential Building Blocks. Michael Isard, Mihai Budiu, Yuan Yu, Andrew Birrell, Dennis Fetterly. Eurosys 2007.
+- [Spark](https://www.usenix.org/system/files/conference/nsdi12/nsdi12-final138.pdf). Resilient Distributed Datasets: A Fault-Tolerant Abstraction for In-Memory Cluster Computing. Matei Zaharia, Mosharaf Chowdhury, Tathagata Das, Ankur Dave, Justin Ma, Murphy McCauley, Michael J. Franklin, Scott Shenker, Ion Stoica. NSDI 2012.
 - [CIEL](https://www.usenix.org/legacy/event/nsdi11/tech/full_papers/Murray.pdf). CIEL: a universal execution engine for distributed data-ﬂow computing. Derek G. Murray, Malte Schwarzkopf, Christopher Smowton, Steven Smith, Anil Madhavapeddy, Steven Hand. NSDI 2011.
-- [Naiad](http://research.microsoft.com/pubs/201100/naiad_sosp2013.pdf). Naiad: A Timely Dataﬂow System. Derek G. Murray, Frank McSherry, Rebecca Isaacs, Michael Isard, Paul Barham, Martin Abadi. SOSP 2013.
+- [Naiad](sigops.org/sosp/sosp13/papers/p439-murray.pdf). Naiad: A Timely Dataﬂow System. Derek G. Murray, Frank McSherry, Rebecca Isaacs, Michael Isard, Paul Barham, Martin Abadi. SOSP 2013.
 - [Tez](https://www.cse.ust.hk/~weiwa/teaching/Fall16-COMP6611B/reading_list/Tez.pdf). Apache Tez: A Unifying Framework for Modeling and
 Building Data Processing Applications. Bikas Saha, Hitesh Shah, Siddharth Seth, Gopal Vijayaraghavan, Arun Murthy, Carlo Curino. SIGMOD 2015.
 - [Optimus](https://pdfs.semanticscholar.org/9ec7/8da630bed253d3ae41af753eb0013d4273be.pdf). Optimus: A Dynamic Rewriting Framework
@@ -50,7 +50,7 @@ Data Analytics Frameworks. Kay Ousterhout, Ryan Rasti, Sylvia Ratnasamy, Scott S
 - [Pig](http://infolab.stanford.edu/~olston/publications/sigmod08.pdf). Pig Latin: A Not-So-Foreign Language for Data Processing. Christopher Olston, Benjamin Reed, Utkarsh Srivastava, Ravi Kumar, Andrew Tomkins. SIGMOD 2008.
 - [FlumeJava](http://pages.cs.wisc.edu/~akella/CS838/F12/838-CloudPapers/FlumeJava.pdf). FlumeJava: Easy, Efﬁcient Data-Parallel Pipelines. Craig Chambers, Ashish Raniwala, Frances Perry, Stephen Adams, Robert R. Henry, Robert Bradshaw, Nathan Weizenbaum. PLDI 2010.
 - [DryadLINQ](https://www.usenix.org/legacy/event/osdi08/tech/full_papers/yu_y/yu_y.pdf). DryadLINQ: A System for General-Purpose Distributed Data-Parallel Computing Using a High-Level Language. Yuan Yu, Michael Isard, Dennis Fetterly, Mihai Budiu, Úlfar Erlingsson, Pradeep Kumar Gunda, Jon Currey. OSDI 2008.
-- [SCOPE](http://research.microsoft.com/en-us/um/people/jrzhou/pub/Scope.pdf). SCOPE: Easy and Efficient Parallel Processing of Massive Data Sets. Ronnie Chaiken, Bob Jenkins, Per-Åke Larson, Bill Ramsey, Darren Shakib, Simon Weaver, Jingren Zhou. VLDB 2008. 
+- [SCOPE](www.vldb.org/pvldb/1/1454166.pdf). SCOPE: Easy and Efficient Parallel Processing of Massive Data Sets. Ronnie Chaiken, Bob Jenkins, Per-Åke Larson, Bill Ramsey, Darren Shakib, Simon Weaver, Jingren Zhou. VLDB 2008. 
 - [Beam](https://beam.apache.org/). Apache Beam.
 
 ### Machine Learning/Deep Learning
@@ -70,7 +70,7 @@ Machine Learning. Martín Abadi, Paul Barham, Jianmin Chen, Zhifeng Chen, Andy D
 ### Stream Processing
 - [Storm](http://db.cs.berkeley.edu/cs286/papers/storm-sigmod2014.pdf). Storm @ Twitter. Ankit Toshniwal, Siddarth Taneja, Amit Shukla, Karthik Ramasamy, Jignesh M. Patel, Sanjeev Kulkarni, Jason Jackson, Krishna Gade, Maosong Fu, Jake Donham, Nikunj Bhagat, Sailesh Mittal, Dmitriy Ryaboy. SIGMOD 2014.
 - [Heron](https://pdfs.semanticscholar.org/e847/c3ec130da57328db79a7fea794b07dbccdd9.pdf). Twitter Heron: Stream Processing at Scale. Sanjeev Kulkarni, Nikunj Bhagat, Maosong Fu, Vikas Kedigehalli, Christopher Kellogg, Sailesh Mittal, Jignesh M. Patel, Karthik Ramasamy, Siddarth Taneja. SIGMOD 2015.
-- [SparkStreaming](http://www.cs.berkeley.edu/~matei/papers/2013/sosp_spark_streaming.pdf). Discretized Streams: Fault-Tolerant Streaming Computation at Scale. Matei Zaharia, Tathagata Das, Haoyuan Li, Timothy Hunter, Scott Shenker, Ion Stoica. SOSP 2013.
+- [SparkStreaming](https://people.csail.mit.edu/matei/papers/2013/sosp_spark_streaming.pdf). Discretized Streams: Fault-Tolerant Streaming Computation at Scale. Matei Zaharia, Tathagata Das, Haoyuan Li, Timothy Hunter, Scott Shenker, Ion Stoica. SOSP 2013.
 - [Flink](http://flink.apache.org/). Apache Flink.
 - [StreamScope](https://www.usenix.org/system/files/conference/nsdi16/nsdi16-paper-lin-wei.pdf). StreamScope: Continuous Reliable Distributed Processing of Big Data Streams. Wei Lin, Haochuan Fan, Zhengping Qian, Junwei Xu, Sen Yang, Jingren Zhou, Lidong Zhou. NSDI 2016.
 - [MillWheel](http://research.google.com/pubs/archive/41378.pdf). MillWheel: Fault-Tolerant Stream Processing at Internet Scale. Tyler Akidau, Alex Balikov, Kaya Bekiroglu, Slava Chernyak, Josh Haberman, Reuven Lax, Sam McVeety, Daniel Mills, Paul Nordstrom, Sam Whittle. VLDB 2013.
@@ -79,9 +79,9 @@ Machine Learning. Martín Abadi, Paul Barham, Jianmin Chen, Zhifeng Chen, Andy D
 
 ### Graph Processing
 - [Pregel](http://kowshik.github.io/JPregel/pregel_paper.pdf). Pregel: A System for Large-Scale Graph Processing. Grzegorz Malewicz, Matthew H. Austern, Aart J. C. Bik, James C. Dehnert, Ilan Horn, Naty Leiser, and Grzegorz Czajkowski. SIGMOD 2010. 
-- [GraphLab](http://www.select.cs.cmu.edu/publications/paperdir/uai2010-low-gonzalez-kyrola-bickson-guestrin-hellerstein.pdf). GraphLab: A New Framework For Parallel Machine Learning. Yucheng Low, Joseph Gonzalez, Aapo Kyrola, Danny Bickson, Carlos Guestrin, Joseph M. Hellerstein. UAI 2010.
+- [GraphLab](https://arxiv.org/pdf/1006.4990.pdf). GraphLab: A New Framework For Parallel Machine Learning. Yucheng Low, Joseph Gonzalez, Aapo Kyrola, Danny Bickson, Carlos Guestrin, Joseph M. Hellerstein. UAI 2010.
 - [DistributedGraphLab](http://vldb.org/pvldb/vol5/p716_yuchenglow_vldb2012.pdf). Distributed GraphLab: A Framework for Machine Learning and Data Mining in the Cloud. Yucheng Low, Joseph Gonzalez, Aapo Kyrola, Danny Bickson, Carlos Guestrin, Joseph M. Hellerstein. VLDB 2012.
-- [PowerGraph](http://graphlab.org/files/osdi2012-gonzalez-low-gu-bickson-guestrin.pdf). PowerGraph: Distributed Graph-Parallel Computation on Natural Graphs. Joseph E. Gonzalez, Yucheng Low, Haijie Gu, Danny Bickson, Carlos Guestrin. OSDI 2012.
+- [PowerGraph](https://www.usenix.org/system/files/conference/osdi12/osdi12-final-167.pdf). PowerGraph: Distributed Graph-Parallel Computation on Natural Graphs. Joseph E. Gonzalez, Yucheng Low, Haijie Gu, Danny Bickson, Carlos Guestrin. OSDI 2012.
 - [PowerLyra](https://pdfs.semanticscholar.org/b58c/cf23de1566df0fd10bfe24bd717ed47a2025.pdf). PowerLyra: Differentiated Graph Computation and Partitioning on Skewed Graphs. Rong Chen, Jiaxin Shi, Yanzhe Chen, Haibo Chen. EuroSys 2015.
 - [Gemini](https://www.usenix.org/system/files/conference/osdi16/osdi16-zhu.pdf). Gemini: A Computation-Centric Distributed
 Graph Processing System. Xiaowei Zhu, Wenguang Chen, Weimin Zheng, Xiaosong Ma. OSDI 2016.

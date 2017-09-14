@@ -74,6 +74,7 @@ Machine Learning. Martín Abadi, Paul Barham, Jianmin Chen, Zhifeng Chen, Andy D
 - [Flink](http://flink.apache.org/). Apache Flink.
 - [StreamScope](https://www.usenix.org/system/files/conference/nsdi16/nsdi16-paper-lin-wei.pdf). StreamScope: Continuous Reliable Distributed Processing of Big Data Streams. Wei Lin, Haochuan Fan, Zhengping Qian, Junwei Xu, Sen Yang, Jingren Zhou, Lidong Zhou. NSDI 2016.
 - [MillWheel](http://research.google.com/pubs/archive/41378.pdf). MillWheel: Fault-Tolerant Stream Processing at Internet Scale. Tyler Akidau, Alex Balikov, Kaya Bekiroglu, Slava Chernyak, Josh Haberman, Reuven Lax, Sam McVeety, Daniel Mills, Paul Nordstrom, Sam Whittle. VLDB 2013.
+- [Dataflow](https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/43864.pdf). The Dataflow Model: A Practical Approach to Balancing Correctness, Latency, and Cost in Massive-Scale, Unbounded, Out-of-Order Data Processing. Tyler Akidau, Robert Bradshaw, Craig Chambers, Slava Chernyak, Rafael J. Fernandez-Moctezuma, Reuven Lax, Sam McVeety, Daniel Mills, Frances Perry, Eric Schmidt, Sam Whittle. VLDB 2015.
 - [SEEP](http://lsds.doc.ic.ac.uk/sites/default/files/sigmod13-seep.pdf). Integrating Scale Out and Fault Tolerance in Stream Processing using Operator State Management. Raul Castro Fernandez, Matteo Migliavacca, Evangelia Kalyvianaki, Peter Pietzuch. SIGMOD 2013.
 - [SummaryStore]. Low-Latency Analytics on Colossal Data Streams with SummaryStore. Nitin Agrawal, Ashish Vulimiri. SOSP 2017.
 

@@ -111,7 +111,7 @@ $ jps
 ## Submission
 Due: 9/25 (Mon) 17:59 (This is a hard deadline)
 
-You must create your own *private* repository under your account and **send them by email to `bd-tas@spl.snu.ac.kr`**.
+You must create your own *private* repository under your account and **send them by email to `bd-ta@spl.snu.ac.kr` ~`bd-tas@spl.snu.ac.kr`~**.
 **Be sure to add the TAs as collaborators in your repository settings!** (Detailed instructions below).
 We will check the snapshot of the *master* branch of your Github repository at the deadline and grade it.
 Please untar the maven project as described in [Preparation](#preparation) and keep the project structure as is.

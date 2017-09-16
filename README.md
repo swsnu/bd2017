@@ -1,6 +1,10 @@
 # Big Data and Deep Learning Systems
 ## Fall 2017
 
+## Announcements
+- Homework1 out - due Sep. 25, 6pm
+- Project proposal due Sep. 20, 9pm
+
 ## Schedule
 | Week | Lecture | Homework/Project |
 |------|---------|------------------|

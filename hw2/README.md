@@ -78,9 +78,8 @@ In this assignment you will
   * spark/vortex_appname_run.sh for running the app
 * Report: PDF
 
-
-* Grading criteria
-  * Usefulness and complexity of the apps (most important)
-  * spark/vortex_app compiles with mvn clean install
-  * spark/vortex_appname_run.sh runs and outputs data as described in the report
+## Grading criteria
+* Usefulness and complexity of the apps (most important)
+* spark/vortex_app compiles with mvn clean install
+* spark/vortex_appname_run.sh runs and outputs data as described in the report
 * Quality of the report

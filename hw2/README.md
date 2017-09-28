@@ -23,9 +23,10 @@ In this assignment you will
   * You should be able to run this immediately without any installation on your part
     * We have pre-installed spark/vortex_app and spark/vortex_runtime jars for you
   * Report full error logs in https://github.com/swsnu/bd2017/issues if this doesn’t work for you
+  * After running spark_mr_run.sh you should manually exit with Ctrl-C
 * spark/vortex_app
   * This is where you develop your Apache Beam applications
-  * Due to Maven dependency issues there’s a separate app (Maven project) for each runtime although they run the same Beam pipeline (e.g., MapReduce)
+  * Due to Maven dependency issues there’s a separate app (Maven project) for each runtime although both run the same Beam pipeline (e.g., MapReduce)
 * spark/vortex_runtime
   * Spark 1.6.0 and Vortex 0.1 source code snapshots
 * spark/vortex_output

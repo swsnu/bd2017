@@ -1,8 +1,6 @@
-# [BD17f] Programming assignment 2
+# [HW2] Apache Beam applications
 
-# Apache Beam applications
-
-# Due Oct. 16 (Mon), 6pm
+**Due Oct. 16 (Mon), 6pm**
 
 
 In this assignment you will

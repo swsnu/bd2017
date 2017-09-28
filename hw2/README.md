@@ -50,8 +50,8 @@ In this assignment you will
   * Spark
     * https://beam.apache.org/documentation/runners/spark/
     * https://spark.apache.org/docs/latest/submitting-applications.html
-* Vortex
-  * vortex_runtime/README.md
+  * Vortex
+    * vortex_runtime/README.md
 * Run the applications you developed with both Spark and Vortex
   * Local runs on a single computer are ok
 * Compare running times (performance) and output data (correctness)

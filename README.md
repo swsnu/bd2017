@@ -57,6 +57,18 @@ Data Analytics Frameworks. Kay Ousterhout, Ryan Rasti, Sylvia Ratnasamy, Scott S
 - [SCOPE](www.vldb.org/pvldb/1/1454166.pdf). SCOPE: Easy and Efficient Parallel Processing of Massive Data Sets. Ronnie Chaiken, Bob Jenkins, Per-Åke Larson, Bill Ramsey, Darren Shakib, Simon Weaver, Jingren Zhou. VLDB 2008. 
 - [Beam](https://beam.apache.org/). Apache Beam.
 
+### Stream Processing
+- [Storm](http://db.cs.berkeley.edu/cs286/papers/storm-sigmod2014.pdf). Storm @ Twitter. Ankit Toshniwal, Siddarth Taneja, Amit Shukla, Karthik Ramasamy, Jignesh M. Patel, Sanjeev Kulkarni, Jason Jackson, Krishna Gade, Maosong Fu, Jake Donham, Nikunj Bhagat, Sailesh Mittal, Dmitriy Ryaboy. SIGMOD 2014.
+- [Heron](https://pdfs.semanticscholar.org/e847/c3ec130da57328db79a7fea794b07dbccdd9.pdf). Twitter Heron: Stream Processing at Scale. Sanjeev Kulkarni, Nikunj Bhagat, Maosong Fu, Vikas Kedigehalli, Christopher Kellogg, Sailesh Mittal, Jignesh M. Patel, Karthik Ramasamy, Siddarth Taneja. SIGMOD 2015.
+- [SparkStreaming](https://people.csail.mit.edu/matei/papers/2013/sosp_spark_streaming.pdf). Discretized Streams: Fault-Tolerant Streaming Computation at Scale. Matei Zaharia, Tathagata Das, Haoyuan Li, Timothy Hunter, Scott Shenker, Ion Stoica. SOSP 2013.
+- [Flink](http://flink.apache.org/). Apache Flink.
+- [StreamScope](https://www.usenix.org/system/files/conference/nsdi16/nsdi16-paper-lin-wei.pdf). StreamScope: Continuous Reliable Distributed Processing of Big Data Streams. Wei Lin, Haochuan Fan, Zhengping Qian, Junwei Xu, Sen Yang, Jingren Zhou, Lidong Zhou. NSDI 2016.
+- [MillWheel](http://research.google.com/pubs/archive/41378.pdf). MillWheel: Fault-Tolerant Stream Processing at Internet Scale. Tyler Akidau, Alex Balikov, Kaya Bekiroglu, Slava Chernyak, Josh Haberman, Reuven Lax, Sam McVeety, Daniel Mills, Paul Nordstrom, Sam Whittle. VLDB 2013.
+- [Dataflow](https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/43864.pdf). The Dataflow Model: A Practical Approach to Balancing Correctness, Latency, and Cost in Massive-Scale, Unbounded, Out-of-Order Data Processing. Tyler Akidau, Robert Bradshaw, Craig Chambers, Slava Chernyak, Rafael J. Fernandez-Moctezuma, Reuven Lax, Sam McVeety, Daniel Mills, Frances Perry, Eric Schmidt, Sam Whittle. VLDB 2015.
+- [Samza](http://www.vldb.org/pvldb/vol10/p1634-noghabi.pdf). Samza: Stateful Scalable Stream Processing at LinkedIn. Shadi A. Noghabi, Kartik Paramasivam,  Yi Pan, Navina Ramesh, Jon Bringhurst, Indranil Gupta,  Roy H. Campbell. VLDB 2017.
+- [SEEP](http://lsds.doc.ic.ac.uk/sites/default/files/sigmod13-seep.pdf). Integrating Scale Out and Fault Tolerance in Stream Processing using Operator State Management. Raul Castro Fernandez, Matteo Migliavacca, Evangelia Kalyvianaki, Peter Pietzuch. SIGMOD 2013.
+- [SummaryStore]. Low-Latency Analytics on Colossal Data Streams with SummaryStore. Nitin Agrawal, Ashish Vulimiri. SOSP 2017.
+
 ### Machine Learning/Deep Learning
 - [PS](https://www.usenix.org/system/files/conference/osdi14/osdi14-paper-li_mu.pdf). Scaling Distributed Machine Learning with the Parameter Server. Mu Li, David G. Andersen, Jun Woo Park, Alexander J. Smola, Amr Ahmed, Vanja Josifovski, James Long, Eugene J. Shekita, and Bor-Yiing Su. OSDI 2014.
 - [Petuum](http://www.cs.cmu.edu/~seunghak/petuum_kdd15.pdf). Petuum: A New Platform for Distributed Machine Learning on Big Data. Eric P. Xing, Qirong Ho, Wei Dai, Jin Kyu Kim, Jinliang Wei, Seunghak Lee, Xun Zheng, Pengtao Xie, Abhimanu Kumar, and Yaoliang Yu. KDD 2015.
@@ -72,17 +84,6 @@ Machine Learning. Martín Abadi, Paul Barham, Jianmin Chen, Zhifeng Chen, Andy D
 - [BaiduDL](https://cs.stanford.edu/~acoates/papers/CoatesHuvalWangWuNgCatanzaro_icml2013.pdf). Deep learning with COTS HPC systems. Adam Coates, Brody Huval, Tao Wang, David J. Wu, Andrew Y. Ng, Bryan Catanzaro. ICML 2013.
 - [DyNet](https://arxiv.org/pdf/1701.03980.pdf). DyNet: The Dynamic Neural Network Toolkit. Graham Neubig, Chris Dyer, Yoav Goldberg, Austin Matthews, Waleed Ammar, Antonios Anastasopoulos, Miguel Ballesteros, David Chiang, Daniel Clothiaux, Trevor Cohn, Kevin Duh, Manaal Faruqui, Cynthia Gan, Dan Garrette, Yangfeng Ji, Lingpeng Kong, Adhiguna Kuncoro, Gaurav Kumar, Chaitanya Malaviya, Paul Michel, Yusuke Oda, Matthew Richardson, Naomi Saphra, Swabha Swayamdipta, Pengcheng Yin. 2017
 
-### Stream Processing
-- [Storm](http://db.cs.berkeley.edu/cs286/papers/storm-sigmod2014.pdf). Storm @ Twitter. Ankit Toshniwal, Siddarth Taneja, Amit Shukla, Karthik Ramasamy, Jignesh M. Patel, Sanjeev Kulkarni, Jason Jackson, Krishna Gade, Maosong Fu, Jake Donham, Nikunj Bhagat, Sailesh Mittal, Dmitriy Ryaboy. SIGMOD 2014.
-- [Heron](https://pdfs.semanticscholar.org/e847/c3ec130da57328db79a7fea794b07dbccdd9.pdf). Twitter Heron: Stream Processing at Scale. Sanjeev Kulkarni, Nikunj Bhagat, Maosong Fu, Vikas Kedigehalli, Christopher Kellogg, Sailesh Mittal, Jignesh M. Patel, Karthik Ramasamy, Siddarth Taneja. SIGMOD 2015.
-- [SparkStreaming](https://people.csail.mit.edu/matei/papers/2013/sosp_spark_streaming.pdf). Discretized Streams: Fault-Tolerant Streaming Computation at Scale. Matei Zaharia, Tathagata Das, Haoyuan Li, Timothy Hunter, Scott Shenker, Ion Stoica. SOSP 2013.
-- [Flink](http://flink.apache.org/). Apache Flink.
-- [StreamScope](https://www.usenix.org/system/files/conference/nsdi16/nsdi16-paper-lin-wei.pdf). StreamScope: Continuous Reliable Distributed Processing of Big Data Streams. Wei Lin, Haochuan Fan, Zhengping Qian, Junwei Xu, Sen Yang, Jingren Zhou, Lidong Zhou. NSDI 2016.
-- [MillWheel](http://research.google.com/pubs/archive/41378.pdf). MillWheel: Fault-Tolerant Stream Processing at Internet Scale. Tyler Akidau, Alex Balikov, Kaya Bekiroglu, Slava Chernyak, Josh Haberman, Reuven Lax, Sam McVeety, Daniel Mills, Paul Nordstrom, Sam Whittle. VLDB 2013.
-- [Dataflow](https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/43864.pdf). The Dataflow Model: A Practical Approach to Balancing Correctness, Latency, and Cost in Massive-Scale, Unbounded, Out-of-Order Data Processing. Tyler Akidau, Robert Bradshaw, Craig Chambers, Slava Chernyak, Rafael J. Fernandez-Moctezuma, Reuven Lax, Sam McVeety, Daniel Mills, Frances Perry, Eric Schmidt, Sam Whittle. VLDB 2015.
-- [SEEP](http://lsds.doc.ic.ac.uk/sites/default/files/sigmod13-seep.pdf). Integrating Scale Out and Fault Tolerance in Stream Processing using Operator State Management. Raul Castro Fernandez, Matteo Migliavacca, Evangelia Kalyvianaki, Peter Pietzuch. SIGMOD 2013.
-- [SummaryStore]. Low-Latency Analytics on Colossal Data Streams with SummaryStore. Nitin Agrawal, Ashish Vulimiri. SOSP 2017.
-
 ### Graph Processing
 - [Pregel](http://kowshik.github.io/JPregel/pregel_paper.pdf). Pregel: A System for Large-Scale Graph Processing. Grzegorz Malewicz, Matthew H. Austern, Aart J. C. Bik, James C. Dehnert, Ilan Horn, Naty Leiser, and Grzegorz Czajkowski. SIGMOD 2010. 
 - [GraphLab](https://arxiv.org/pdf/1006.4990.pdf). GraphLab: A New Framework For Parallel Machine Learning. Yucheng Low, Joseph Gonzalez, Aapo Kyrola, Danny Bickson, Carlos Guestrin, Joseph M. Hellerstein. UAI 2010.
@@ -91,6 +92,7 @@ Machine Learning. Martín Abadi, Paul Barham, Jianmin Chen, Zhifeng Chen, Andy D
 - [PowerLyra](https://pdfs.semanticscholar.org/b58c/cf23de1566df0fd10bfe24bd717ed47a2025.pdf). PowerLyra: Differentiated Graph Computation and Partitioning on Skewed Graphs. Rong Chen, Jiaxin Shi, Yanzhe Chen, Haibo Chen. EuroSys 2015.
 - [Gemini](https://www.usenix.org/system/files/conference/osdi16/osdi16-zhu.pdf). Gemini: A Computation-Centric Distributed
 Graph Processing System. Xiaowei Zhu, Wenguang Chen, Weimin Zheng, Xiaosong Ma. OSDI 2016.
+- [GraphX](https://amplab.cs.berkeley.edu/wp-content/uploads/2014/09/graphx.pdf). GraphX: Graph Processing in a Distributed Dataflow Framework. Joseph E. Gonzalez, Reynold S. Xin, Ankur Dave, Daniel Crankshaw, Michael J. Franklin, Ion Stoica. OSDI 2014.
 - [Arabesque](https://arxiv.org/pdf/1510.04233.pdf). Arabesque: A System for Distributed Graph Mining Extended version. Carlos H. C. Teixeira, Alexandre J. Fonseca, Marco Serafini, Georgos Siganos, Mohammed J. Zaki, Ashraf Aboulnaga. Shorter version appeared at SOSP 2015.
 
 ### Distributed Store

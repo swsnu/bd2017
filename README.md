@@ -21,7 +21,7 @@
 | Week11 11.14/16 | DL framework - Tensorflow/Caffe2/Torch | HW3 due |
 | Week12 11.21/23 |  Graph processing - Pregel, GraphLab, X-Stream, Arabesque | Project progress presentation (11.21) |
 | Week13 11.28/30 |  Graph processing - Pregel, GraphLab, X-Stream, Arabesque | |
-| Week14 12.5/7 | DS - GFS, Bigtable, Dynamo | Project progress check |
+| Week14 12.5/7 | DS - GFS, Bigtable, Dynamo |  |
 | Week15 12.12/14 | Coordination - Chubby, Zookeeper, Project presentation |  |
 | Week16 12.19 | Project presentation | Project report due - 12.22 |
 

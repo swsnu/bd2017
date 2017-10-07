@@ -2,6 +2,8 @@
 ## Fall 2017
 
 ## Announcements
+- Project progress presentation - Oct. 24
+- Homework2 out - due Oct. 16, 6pm
 - Homework1 out - due Sep. 25, 6pm
 - Project proposal due Sep. 20, 9pm
 

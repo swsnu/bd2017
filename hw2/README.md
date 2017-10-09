@@ -19,6 +19,7 @@ In this assignment you will
 * You must find and use at least 2 datasets larger than 10MB
 
 ## Untar and use bd17f_hw2.tar.gz
+* Download link: https://drive.google.com/file/d/0Bxj1zsZ2mX-_ZEJsUWdjUUstTVU/view 
 * spark/vortex_mr_run.sh
   * You should be able to run this immediately without any installation on your part
     * We have pre-installed spark/vortex_app and spark/vortex_runtime jars for you

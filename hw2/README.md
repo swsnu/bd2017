@@ -74,10 +74,11 @@ In this assignment you will
 
 ## Upload dataset/code/report to the private repository
 * Upload to your ‘bd17f-USERNAME’ private repository
-* Dataset: appname_input_data
+* Dataset: Don't upload datasets, and instead include `wget url/to/dataset` in the app run scripts 
 * Code: 
   * Apps in spark/vortex_app
   * spark/vortex_appname_run.sh for running the app
+  * Please upload the code without `vortex_runtime` and `spark_runtime`
 * Report: PDF
 
 ## Grading criteria

@@ -3,6 +3,7 @@
 
 ## Announcements
 - Project progress presentation - Nov. 2, 6:30-8pm
+- Homework3 out - due Nov. 20, 6pm
 - Homework2 out - due Oct. 16, 6pm
 - Homework1 out - due Sep. 25, 6pm
 - Project proposal due Sep. 20, 9pm

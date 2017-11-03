@@ -4,6 +4,8 @@
 
 ******(IMPORTANT) Start downloading datasets (~9GB) ahead of time!******
 
+******(Nov 3): Updated description on the data format of binary files + clarification on the length/frequency of the samples/test dataset.******
+
 The last, but not least, programming assignment is to conduct **speaker recognition** - identifying a speaker from short speech segments - using the deep learning (DL) frameworks TensorFlow or Caffe2. You will implement convolutional neural networks based on known models, such as the VGG-M network, atop of TensorFlow or Caffe2, and train the models using the recently published VoxCeleb dataset. Compare the accuracy of your trained models with the results in the reference paper, describing how they differ and why. Also, you will analyze how adjusting the training setup (batch size, learning rate, model parameters, etc.) affects various aspects including, but not limited to, training speed, inference speed, model accuracy, and more. Although this assignment can be done solely on CPUs, a server equipped with a GPU accelerator is *strongly* suggested. A training session that would take an hour or two with a GPU device may take as long as a few days if done on only CPU.
 
 ## Task: Speaker Recognition
@@ -22,12 +24,13 @@ You will use the VoxCeleb [6] dataset, which is basically a very large group of 
 
 * `voxceleb-abridged-N.bin` (N=1, 2, …, 6)
   * URL (download with any data transfer tool like `curl`) : `https://s3.ap-northeast-2.amazonaws.com/snu-bd2017-hw3/voxceleb-abridged-N.bin` (N=1, 2, …, 6)
-  * Preprocessed spectograms of 17,460 wav files (all 3.015 seconds long, 16kHz), in no particular order.
+  * Preprocessed spectograms of 17,460 wav files (all 3.015 seconds long, 16kHz), in binary format and in no particular order.
   * About 9GB in total. (~1.5GB each)
   * Each data instance is a 2d float32 array of [512, 300] dimensions.
   * Both TensorFlow and Caffe2 provide APIs for reading such binary-formatted files. Use them!
   * Split the datasets into train/test or train/dev/test subsets, as you wish.
   * Format: an int32 class label followed by 512*300 float32s, for each data instance. There are no whitespaces between values, and no line breaks between instances.
+  * **Note: The int32 label is serialized as a float32. Read the label as a float32, then cast it back into a int32.**
 
 ```
 [data0_class] [data0(0,0)] [data0(0,1)] … [data0(511,299)]
@@ -50,7 +53,7 @@ You will use the VoxCeleb [6] dataset, which is basically a very large group of 
 
 * `voxceleb-abridged-samples.tar.gz`
   * URL (download with any data transfer tool like `curl`) : [`https://s3.ap-northeast-2.amazonaws.com/snu-bd2017-hw3/voxceleb-abridged-samples.tar.gz`](https://s3.ap-northeast-2.amazonaws.com/snu-bd2017-hw3/voxceleb-abridged-samples.tar.gz)
-  * 150 sample wav files (3 per speaker) that you can play and listen to, and their corresponding spectograms.
+  * 150 sample wav files (3 per speaker, all 3.015 seconds long, 16kHz) that you can play and listen to, and their corresponding spectograms.
   * About 93MB.
   * For example,
 ```
@@ -101,7 +104,7 @@ You are not obliged to list every single model difference; rather, focus on the 
 * Report contains reproducible training results
   * Include screenshots of your training results
   * At least 25% test accuracy should be achieved
-  * We will also check your models on a separate unreleased test dataset to verify the numbers in your report
+  * We will also check your models on a separate unreleased test dataset to verify the numbers in your report (the test dataset is in the same format as the other given datasets; binarized spectograms of wav files that are 3.015 seconds long, 16kHz)
 * Report contains interesting analysis on models as well as tuning parameters
 
 

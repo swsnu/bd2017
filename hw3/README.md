@@ -4,7 +4,8 @@
 
 ******(IMPORTANT) Start downloading datasets (~9GB) ahead of time!******
 
-******(Nov 3): Updated description on the data format of binary files + clarification on the length/frequency of the samples/test dataset.******
+******(Nov 3): Updated description on the data format of binary files + clarification on the length/frequency of the samples/test dataset.******  
+******(Nov 19): Possible error in the number of training data instances.******
 
 The last, but not least, programming assignment is to conduct **speaker recognition** - identifying a speaker from short speech segments - using the deep learning (DL) frameworks TensorFlow or Caffe2. You will implement convolutional neural networks based on known models, such as the VGG-M network, atop of TensorFlow or Caffe2, and train the models using the recently published VoxCeleb dataset. Compare the accuracy of your trained models with the results in the reference paper, describing how they differ and why. Also, you will analyze how adjusting the training setup (batch size, learning rate, model parameters, etc.) affects various aspects including, but not limited to, training speed, inference speed, model accuracy, and more. Although this assignment can be done solely on CPUs, a server equipped with a GPU accelerator is *strongly* suggested. A training session that would take an hour or two with a GPU device may take as long as a few days if done on only CPU.
 
@@ -24,7 +25,8 @@ You will use the VoxCeleb [6] dataset, which is basically a very large group of 
 
 * `voxceleb-abridged-N.bin` (N=1, 2, …, 6)
   * URL (download with any data transfer tool like `curl`) : `https://s3.ap-northeast-2.amazonaws.com/snu-bd2017-hw3/voxceleb-abridged-N.bin` (N=1, 2, …, 6)
-  * Preprocessed spectograms of 17,460 wav files (all 3.015 seconds long, 16kHz), in binary format and in no particular order.
+  * Preprocessed spectograms of ~~17,460~~ wav files (all 3.015 seconds long, 16kHz), in binary format and in no particular order.
+    * **Note**: There has been a report that the number of wav files is NOT 17,460. The real count is estimated to be around 14.8k. Nonetheless, this number is simply supplementary information and should not affect your implementation greatly.
   * About 9GB in total. (~1.5GB each)
   * Each data instance is a 2d float32 array of [512, 300] dimensions.
   * Both TensorFlow and Caffe2 provide APIs for reading such binary-formatted files. Use them!

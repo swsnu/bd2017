@@ -24,7 +24,7 @@ The following image is a simple illustration of the identification problem. Give
 You will use the VoxCeleb [6] dataset, which is basically a very large group of audio segments from YouTube with annotations about the speaker. The original dataset consists of over 100k utterances with varying lengths, from a total of 1,251 celebrities. For the sake of preventing the dataset size from becoming insanely big, the TA team has sampled data from a randomly picked cast of 50 people out of the original 1,251. The following files will be provided for your convenience.
 
 * `voxceleb-abridged-N.bin` (N=1, 2, …, 6)
-  * URL (download with any data transfer tool like `curl`) : `https://s3.ap-northeast-2.amazonaws.com/snu-bd2017-hw3/voxceleb-abridged-N.bin` (N=1, 2, …, 6)
+  * URL (download with any data transfer tool like `curl`) : **Files have been taken down from the server.**
   * Preprocessed spectograms of ~~17,460~~ wav files (all 3.015 seconds long, 16kHz), in binary format and in no particular order.
     * **Note**: There has been a report that the number of wav files is NOT 17,460. The real count is estimated to be around 14.8k. Nonetheless, this number is simply supplementary information and should not affect your implementation greatly.
   * About 9GB in total. (~1.5GB each)
@@ -54,7 +54,7 @@ You will use the VoxCeleb [6] dataset, which is basically a very large group of 
 
 
 * `voxceleb-abridged-samples.tar.gz`
-  * URL (download with any data transfer tool like `curl`) : [`https://s3.ap-northeast-2.amazonaws.com/snu-bd2017-hw3/voxceleb-abridged-samples.tar.gz`](https://s3.ap-northeast-2.amazonaws.com/snu-bd2017-hw3/voxceleb-abridged-samples.tar.gz)
+  * URL (download with any data transfer tool like `curl`) : **Files have been taken down from the server.**
   * 150 sample wav files (3 per speaker, all 3.015 seconds long, 16kHz) that you can play and listen to, and their corresponding spectograms.
   * About 93MB.
   * For example,
